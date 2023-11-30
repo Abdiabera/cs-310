@@ -1,0 +1,51 @@
+
+
+
+1. How many ms did every table take when testing on tale.txt?
+
+Dear Professor, TA
+
+
+	Thank you for your help, my code is running and work good. I got hard time to fix some issue but I have fixed.
+	It takes me a couple of days to fix this homework.
+
+93 ms
+70 ms
+26 ms
+30577 ms
+
+
+
+
+      ST == 93ms
+      SeparateChainingHashST == 70ms
+      SequentialSearchST == 26ms
+      LinearProbingHashST == 30577ms
+
+        System.out.println(symTime); == 93
+        System.out.println(sepTime); == 70
+        System.out.println(lTime); == 26
+        System.out.println(SeqTime); == 30577
+        System.out.println(getTotalWords()); == 139043
+        System.out.println(getUniqueWords()); == 19695
+        System.out.println(getMaxOccurrence() + "" + getMostUsedWord()); the 7515
+
+
+
+[root]
+TestTestPerf.test_common_word_tale 708 ms
+TestTestPerf.test_common_tale 13ms
+TestTestPerf.test_unique_words_tale 68ms
+TestTestPerf.test_no_words_tale 68ms
+Total time = 2m 11sec
+
+
+
+
+
+
+
+
+
+
+

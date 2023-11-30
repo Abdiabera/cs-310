@@ -1,0 +1,45 @@
+2.
+   Does it (approximately) correspond to the expected insert and search performance for each table? No
+need to perform a detailed analysis, but please mention what you know about the expected runtime
+for each one of the lookup table types.
+
+
+
+Dear Professor, TA
+
+
+Thank you for your help; my code is running and working well. I had a difficult time resolving some issues, but I did.
+It took me a couple of days to fix this homework.
+
+
+    As we all know, the runtime of an algorithm is determined by the size of the data,
+the platform on which the algorithm is executed, and the algorithm's complexity.
+
+1. The symbol table or ST ===
+
+	It is coded as an unordered linked list, and its runtime is O(N) for insertion and search in ST.
+
+2. DistinguishChainingHashS ===
+
+	Separate chaining is used to code it, with each entry in a linked list of key-value pairs.The
+
+ runtime for each expected insertion and search is O(1).
+
+3.LinearProbingHashST ====
+
+	It is based on linear probing and, despite the collision, the next insert to the table is
+
+used.The runtime for insertion and search will be O(1) with a low load factor.
+
+
+
+
+4.SequentialSearchST ====
+
+	This is implemented as an order link list, and the performance for both insertion and searches will be O(N).
+
+
+	Overall, SeparateChainingHashS and LinearProbingHashST are faster than ST and SequentialSearchST.
+
+
+

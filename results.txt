@@ -1,0 +1,9 @@
+Running Test : Test Single Line Usage 1 (test_usage1)
+==> Score: 5.00 / 5.00
+Running Test : Test Single Line Usage 2 (test_usage2)
+==> Score: 5.00 / 5.00
+Running Test : Test Line Usage 3 (test_usage3)
+==> Score: 5.00 / 5.00
+Running Test : Test Line Usage 4 (test_usage4)
+==> Score: 5.00 / 5.00
+Running Test : Test Line Report 1 (test_varargs)
