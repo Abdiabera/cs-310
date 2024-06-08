@@ -1,0 +1,25 @@
+1. The time and space requirements are both O(mn), where m and n are the lengths of the two sequences. 
+2. (not needed for memo.txt): Here is a suggested output for the Coins program, based on the attached coins.txt and coins2.txt
+respectively:
+For 140 We use 2 coins
+70 X 2
+
+For 63 We use 6 coins
+25 X 2
+10 X 1
+1 X 3
+ 
+3. For EditDistance the expected output should be as in the instructions:
+Edit Distance 7
+A T 1
+A A 0
+C - 2
+A A 0
+G G 0
+T G 1
+T T 0
+A - 2
+C C 0
+C A 1
+
+4. The time required for MTF in the worst case requires to remove an item from the list, which is linear in the size of the list, denoted R in our notes, usually 256). It is linear since in a list we have to search the list to reach the item. Adding to the top of a linked list is constant. We do it n times, where n is the size of the code. Overall O(n*R). Practically it is a lot less since very often letters that were recently used are used again shortly afterwards, so they tend to cluster in the beginning of the list, so the search time is a lot shorter. This concept is called self-organizing lists. 
