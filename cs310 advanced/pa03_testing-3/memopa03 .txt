@@ -1,0 +1,83 @@
+Abdi Abera : cs310
+
+
+memo.txt. Indicate any late days and answer the questions below. 
+
+
+Match: 
+0
+1
+1
+3
+3
+4
+4
+4
+6
+6
+7
+
+MoveToFront:
+41 42 52 41 43 41 44 41 42 52 41 21 decoded
+ABRACADABRA! ......
+96 bits
+
+
+1. What is the runtime of the Dynamic subsequence algorithm?
+Answer:
+
+According to my code the runtime of dynamic subsequence algorithm O(n^2)
+But since it have binary search the algorithm will have time complexity O(n log n).
+
+
+2. What are the possible four maximum subsequences to the sequence above?
+
+It have 4 maximum subsequences
+
+
+0 2 6 9 13 15
+0 4 6 9 13 15
+0 2 6 9 11 15
+0 4 9 11 13 15
+
+
+3. What is the output from matching the two sequences:
+x = ”AACAGTTACC” and y = ”TAAGGTCA”?
+
+Answer:
+0
+1
+1
+3
+3
+4
+4
+4
+6
+6
+7
+
+4. What is the runtime of the matching DP algorithm?
+
+Ans:
+
+The runtime for the matching DP is O(M * N) 
+
+5. What is the space required to implement the algorithm?
+
+Ans:
+
+then it needs O(n) space to store 
+
+6. Analyze the runtime and space usage of your Move to front algorithm
+
+Ans:
+
+Since I have used 256 character the run time and front usage of move-to-front is 
+O(N+M) because it checks the input from the string. let N be  Character and M is my char size array
+
+And space complicity will be O(n)
+
+
+
+

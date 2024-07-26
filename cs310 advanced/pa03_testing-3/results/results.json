@@ -1,0 +1,67 @@
+Running JUnit tests using com.gradescope.jh61b.junit.TestRunner in "all" mode.
+
+Running test_edit_dist: 
+====================================
+Cost of Entire example (Should be 7) expected:<7> but was:<0>
+    at pa3.tests.TestMatch.test_edit_dist:19 (TestMatch.java)
+=====> FAILED!
+
+Running test_edit1: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestMatch.test_edit1:27 (TestMatch.java)
+=====> FAILED!
+
+Running test_edit2: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestMatch.test_edit2:36 (TestMatch.java)
+=====> FAILED!
+
+Running test_edit4: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestMatch.test_edit4:45 (TestMatch.java)
+=====> FAILED!
+
+Running test_edit5: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestMatch.test_edit5:55 (TestMatch.java)
+=====> FAILED!
+
+Running test_fourth_position_sequence: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestSubSequence.test_fourth_position_sequence:40 (TestSubSequence.java)
+=====> FAILED!
+
+Running test_first_position_sequence: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestSubSequence.test_first_position_sequence:26 (TestSubSequence.java)
+=====> FAILED!
+
+Running test_sixth_position_sequence: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestSubSequence.test_sixth_position_sequence:47 (TestSubSequence.java)
+=====> FAILED!
+
+Running test_third_position_sequence: 
+====================================
+    java.lang.NullPointerException
+    at pa3.tests.TestSubSequence.test_third_position_sequence:33 (TestSubSequence.java)
+=====> FAILED!
+
+Running test_mtf_encoding1: 
+====================================
+=====> FAILED!
+
+Running test_mtf_encoding3: 
+====================================
+Encoding error! expected:<[41 42 52 02 44 01 45 01 04 04 02 26]> but was:<[54 65 73 74 20 65 6e 63 6f 64 69 6e 67 20 65 78 70 65 63 74 65 64 3a 3c 5b 41 42 52 41 43 41 44 41 42 52 41 21 5d 3e 20 62 75 74 20 77 61 73 3a 3c 5b 5d 3e 0a 20 20 20 20 61 74 20 70 61 33 2e 74 65 73 74 73 2e 54 65 73 74 4d 54 46 2e 74 65 73 74 5f 6d 74 66 5f 65 6e 63 6f 64 69 6e 67 31 3a 37 31 20 28 54 65 73 74 4d 54 46 2e 6a 61 76 61 29 0a]>
+    at pa3.tests.TestMTF.test_mtf_encoding3:81 (TestMTF.java)
+=====> FAILED!
+
+Passed: 0/11 tests.
